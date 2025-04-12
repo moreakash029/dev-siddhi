@@ -46,7 +46,7 @@ body {
   height: 100%;
   font-family: "Livvic", sans-serif;
   font-size: 18px;
-  background-color: #0b0b0b;
+  background-color: #dfc5c5;
   margin: 0;
   color: #fff;
 }
@@ -67,7 +67,7 @@ section {
 }
 
 .main-section {
-  background-color: #0b0b0b;
+  background-color: #dfc5c5;
 }
 
 .img-container {
@@ -475,6 +475,11 @@ header {
   left: 0;
   right: 0;
   width: 100%;
+}
+
+header .header-inner .photo{
+  width: 130px;
+  height: 60px;
 }
 
 header .header-inner {

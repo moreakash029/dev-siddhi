@@ -1,8 +1,15 @@
+// import devSiddhiLogo from "../../public/assets/logos/Devsiddhi Logo.png";
+
 const Header = () => {
+  // console.log('devSiddhiLogo', devSiddhiLogo)
   return (
     <header>
       {/* Desktop Menu Starts */}
       <div className="header-inner hide-mobile">
+        <div>
+        <img className="photo" src="/assets/devSiddhiLogo.png"/>
+        </div>
+
         {/* MENU STARTS */}
         <div className="menu">
           <nav>
@@ -29,11 +36,11 @@ const Header = () => {
         </div>
         {/* MENU ENDS */}
         {/* FREELANCE STARTS */}
-        <div className="mail">
+        {/* <div className="mail">
           <p>
             Email :<span> contact@steven.net</span>
           </p>
-        </div>
+        </div> */}
         {/* FREELANCE ENDS */}
       </div>
       {/* Desktop Menu Ends */}
