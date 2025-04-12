@@ -24,7 +24,7 @@ const Switcher = () => {
         className={toggle ? "open" : "close"}
         style={{ display: "block" }}
       >
-        <div className="content-switcher">
+        {/* <div className="content-switcher">
           <h4>COLOR SWITCHER</h4>
           <ul>
             {colors.map((color) => (
@@ -47,7 +47,7 @@ const Switcher = () => {
           <div id="hideSwitcher" onClick={() => setToggle(false)}>
             ×
           </div>
-        </div>
+        </div> */}
       </div>
       <div
         id="showSwitcher"
