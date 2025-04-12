@@ -49,13 +49,13 @@ const Switcher = () => {
           </div>
         </div> */}
       </div>
-      <div
+      {/* <div
         id="showSwitcher"
         className={`styleSecondColor ${toggle ? "close" : "open"}`}
         onClick={() => setToggle(true)}
       >
         <i className="fa fa-cog" />
-      </div>
+      </div> */}
     </Fragment>
   );
 };
